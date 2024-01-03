@@ -2,6 +2,7 @@
 
 ## With split kernels
 ```bash
+git clone git@github.com:mrnorman/recon_kernel.git
 cd recon_kernel/build
 source crusher_gpu.env
 ./cmakescript.sh
