@@ -4,6 +4,7 @@
 ```bash
 git clone git@github.com:mrnorman/recon_kernel.git
 cd recon_kernel/build
+git submodule update --init
 source crusher_gpu.env
 ./cmakescript.sh
 make -j
